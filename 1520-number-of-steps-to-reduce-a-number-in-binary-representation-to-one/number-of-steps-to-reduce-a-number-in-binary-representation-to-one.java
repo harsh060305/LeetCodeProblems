@@ -8,6 +8,6 @@ class Solution {
             carry |= bit;
         }
 
-        return steps + carry;
+        return steps +carry;
     }
 }
