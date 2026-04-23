@@ -4,7 +4,7 @@ class Solution {
 
         for (int i = s.length() - 1; i > 0; i--) {
             int bit = s.charAt(i) & 1;
-            steps += 1 + (bit ^ carry);
+            steps += 1 + (bit ^ carry); 
             carry |= bit;
         }
 
