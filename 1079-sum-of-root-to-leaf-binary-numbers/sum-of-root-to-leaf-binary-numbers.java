@@ -12,7 +12,7 @@ class Solution{
         current = current * 2 + node.val;
         
         if (node.left == null && node.right == null) {
-            return current;
+            return current; 
         } 
         
         return dfs(node.left, current) + dfs(node.right, current);
