@@ -13,7 +13,7 @@ class Solution{
         
         if (node.left == null && node.right == null) {
             return current;
-        }
+        } 
         
         return dfs(node.left, current) + dfs(node.right, current);
     }
